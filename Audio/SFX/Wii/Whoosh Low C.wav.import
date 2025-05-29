@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cc63m5gsong8f"
+path="res://.godot/imported/Whoosh Low C.wav-0aaf76998c962fd6ea6df501c92d3edd.sample"
+
+[deps]
+
+source_file="res://Audio/SFX/Wii/Whoosh Low C.wav"
+dest_files=["res://.godot/imported/Whoosh Low C.wav-0aaf76998c962fd6ea6df501c92d3edd.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

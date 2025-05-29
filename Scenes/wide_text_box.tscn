@@ -1,0 +1,42 @@
+[gd_scene load_steps=4 format=3 uid="uid://dgknt63xdule4"]
+
+[ext_resource type="Script" uid="uid://b2p3d2yglg82y" path="res://Scripts/text_box.gd" id="1_nnu0k"]
+[ext_resource type="FontFile" uid="uid://dvwoh2xokmgut" path="res://Fonts/SpaceMono-Regular.ttf" id="2_83ip8"]
+
+[sub_resource type="FontVariation" id="FontVariation_uc35b"]
+base_font = ExtResource("2_83ip8")
+
+[node name="WideTextBox" type="MarginContainer"]
+offset_right = 1922.0
+offset_bottom = 145.0
+script = ExtResource("1_nnu0k")
+
+[node name="NinePatchRect" type="NinePatchRect" parent="."]
+layout_mode = 2
+region_rect = Rect2(8, 4.97376, 480, 488.203)
+patch_margin_left = 79
+patch_margin_top = 72
+patch_margin_right = 92
+patch_margin_bottom = 63
+
+[node name="MarginContainer" type="MarginContainer" parent="."]
+layout_mode = 2
+theme_override_constants/margin_left = 50
+theme_override_constants/margin_top = 50
+theme_override_constants/margin_right = 50
+theme_override_constants/margin_bottom = 50
+
+[node name="Label" type="Label" parent="MarginContainer"]
+texture_filter = 2
+layout_mode = 2
+size_flags_vertical = 1
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = SubResource("FontVariation_uc35b")
+theme_override_font_sizes/font_size = 30
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="LetterDisplayTimer" type="Timer" parent="."]
+one_shot = true
+
+[connection signal="timeout" from="LetterDisplayTimer" to="." method="_on_letter_display_timer_timeout"]

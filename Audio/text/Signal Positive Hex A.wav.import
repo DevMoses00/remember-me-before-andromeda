@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://nwg0xrw45601"
+path="res://.godot/imported/Signal Positive Hex A.wav-4f4460014ee24e79212cd45efd160bb8.sample"
+
+[deps]
+
+source_file="res://Audio/text/Signal Positive Hex A.wav"
+dest_files=["res://.godot/imported/Signal Positive Hex A.wav-4f4460014ee24e79212cd45efd160bb8.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2
