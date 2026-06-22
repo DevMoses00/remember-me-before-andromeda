@@ -1,7 +1,7 @@
-[gd_scene load_steps=340 format=3 uid="uid://c07ue3ggw4c4u"]
+[gd_scene load_steps=262 format=3 uid="uid://c07ue3ggw4c4u"]
 
 [ext_resource type="Texture2D" uid="uid://dg8siedngo61" path="res://Art/foreground.png" id="1_8gbba"]
-[ext_resource type="Script" uid="uid://dsduhptr4vvdc" path="res://Scenes/car.gd" id="1_s8cid"]
+[ext_resource type="Script" uid="uid://dsduhptr4vvdc" path="res://Scripts/car.gd" id="1_s8cid"]
 [ext_resource type="Texture2D" uid="uid://bwtutv6ashwx2" path="res://Art/background_new/frame_01.png" id="1_v1mrv"]
 [ext_resource type="Texture2D" uid="uid://c0ymgw87q3ygo" path="res://Art/background_new/frame_02.png" id="2_fd3ed"]
 [ext_resource type="Texture2D" uid="uid://cnrilcbg1he33" path="res://Art/car/Car_01.png" id="2_fnc5k"]
@@ -160,132 +160,58 @@
 [ext_resource type="Texture2D" uid="uid://rfqpjj4ubho3" path="res://Art/circles/frame_73.png" id="149_qywy7"]
 [ext_resource type="Texture2D" uid="uid://d36c6320bhdpi" path="res://Art/circles/frame_74.png" id="150_a361w"]
 [ext_resource type="Texture2D" uid="uid://bj7hsxllpqap0" path="res://Art/circles/frame_75.png" id="151_4q4m1"]
-[ext_resource type="Script" uid="uid://gsfhasia7yur" path="res://Scenes/car_icon.gd" id="152_ycugy"]
+[ext_resource type="Script" uid="uid://gsfhasia7yur" path="res://Scripts/buttons_icon.gd" id="152_ycugy"]
 [ext_resource type="Texture2D" uid="uid://iyuqfclb10hu" path="res://Art/cards/cardicon.png" id="158_11vbv"]
 [ext_resource type="Texture2D" uid="uid://bwwebjfvtyrbb" path="res://Art/wii/wiiicon.png" id="159_m6w5j"]
 [ext_resource type="Texture2D" uid="uid://tg7h0jxkvt4o" path="res://Art/pizza/pizzaicon.png" id="160_hprjy"]
-[ext_resource type="Script" uid="uid://c8uba530xbhev" path="res://Scenes/card_moment.gd" id="161_e104q"]
+[ext_resource type="Script" uid="uid://c8uba530xbhev" path="res://Scripts/card_moment.gd" id="161_e104q"]
 [ext_resource type="Texture2D" uid="uid://cu6aw2on0datr" path="res://Art/character/frame_01.png" id="161_ffxd5"]
 [ext_resource type="Texture2D" uid="uid://bwsde6ygutfyn" path="res://Art/cards/hands_1.png" id="161_s2nl6"]
 [ext_resource type="Texture2D" uid="uid://di8i6fulhq43g" path="res://Art/cards/hands_2.png" id="162_ddyu8"]
-[ext_resource type="Texture2D" uid="uid://2snfpcwwu8ko" path="res://Art/character/frame_02.png" id="162_f2hid"]
 [ext_resource type="Texture2D" uid="uid://8dscdm3gr6wx" path="res://Art/cards/hands_3.png" id="163_e104q"]
-[ext_resource type="Texture2D" uid="uid://uxvk1xaud245" path="res://Art/character/frame_03.png" id="163_jwypt"]
-[ext_resource type="Texture2D" uid="uid://86yslg7lpe0j" path="res://Art/character/frame_04.png" id="164_bqs45"]
 [ext_resource type="Texture2D" uid="uid://b56lf7vsrcid5" path="res://Art/cards/hands_4.png" id="164_y6fhn"]
 [ext_resource type="Texture2D" uid="uid://dg36nnarvengd" path="res://Art/cards/cards_1.png" id="165_ddyu8"]
-[ext_resource type="Texture2D" uid="uid://dgnc4fjne4m1f" path="res://Art/character/frame_05.png" id="165_s2nl6"]
-[ext_resource type="Texture2D" uid="uid://g5dci6qnnfxh" path="res://Art/character/frame_06.png" id="166_ddyu8"]
-[ext_resource type="Texture2D" uid="uid://db5he0bf4j3jy" path="res://Art/character/frame_07.png" id="167_e104q"]
 [ext_resource type="Texture2D" uid="uid://ce013a38qar6c" path="res://Art/cards/glow.png" id="167_y6fhn"]
-[ext_resource type="Script" uid="uid://crphpu0j634nv" path="res://Scenes/wii_moment.gd" id="168_6ecqq"]
+[ext_resource type="Script" uid="uid://crphpu0j634nv" path="res://Scripts/wii_moment.gd" id="168_6ecqq"]
 [ext_resource type="Texture2D" uid="uid://g7sti0j5lqb8" path="res://Art/pizza/slices/Untitled_Artwork-1 2.png" id="168_dorq1"]
-[ext_resource type="Script" uid="uid://blfmiqsha7l5g" path="res://Scenes/pizza_moment.gd" id="168_u7f2x"]
-[ext_resource type="Texture2D" uid="uid://fyo5mwcqogn" path="res://Art/character/frame_08.png" id="168_y6fhn"]
+[ext_resource type="Script" uid="uid://blfmiqsha7l5g" path="res://Scripts/pizza_moment.gd" id="168_u7f2x"]
 [ext_resource type="Texture2D" uid="uid://mgwxhfh22r71" path="res://Art/wii/turn_left.png" id="168_yv31h"]
 [ext_resource type="Texture2D" uid="uid://h40dxkhtt3yh" path="res://Art/wii/straight.png" id="169_6ecqq"]
-[ext_resource type="Texture2D" uid="uid://dykey1sut5dyl" path="res://Art/character/frame_09.png" id="169_ecp88"]
 [ext_resource type="Texture2D" uid="uid://cv123k4jo4r12" path="res://Art/pizza/slices/Untitled_Artwork-2 2.png" id="169_u7f2x"]
 [ext_resource type="Texture2D" uid="uid://uxgep2mjjprc" path="res://Art/wii/turn_right.png" id="170_if84k"]
 [ext_resource type="Texture2D" uid="uid://d26pq84dyuvn7" path="res://Art/pizza/slices/Untitled_Artwork-3.png" id="170_ugo8c"]
-[ext_resource type="Texture2D" uid="uid://nmncvqljrp2w" path="res://Art/character/frame_10.png" id="170_vhoi0"]
-[ext_resource type="Texture2D" uid="uid://b1yl4b2g5s746" path="res://Art/character/frame_11.png" id="171_jmisg"]
 [ext_resource type="Texture2D" uid="uid://bolvfmh6q1561" path="res://Art/pizza/slices/Untitled_Artwork-4.png" id="171_nf1h2"]
 [ext_resource type="Texture2D" uid="uid://c5gnjm3qqcnd3" path="res://Art/wii/swing/frame_01.png" id="171_nh8i1"]
 [ext_resource type="Texture2D" uid="uid://joaulpawmny4" path="res://Art/wii/swing/frame_02.png" id="172_gxnpd"]
 [ext_resource type="Texture2D" uid="uid://tjivpski4nus" path="res://Art/pizza/slices/Untitled_Artwork-5.png" id="172_mv3pa"]
-[ext_resource type="Texture2D" uid="uid://dvlhiueh4pcd8" path="res://Art/character/frame_12.png" id="172_refj4"]
-[ext_resource type="Texture2D" uid="uid://6jpyhloiff3f" path="res://Art/character/frame_13.png" id="173_47mp3"]
 [ext_resource type="Texture2D" uid="uid://8j4wvw8wcd4x" path="res://Art/pizza/slices/Untitled_Artwork-6.png" id="173_npckp"]
 [ext_resource type="Texture2D" uid="uid://8apd0os014e4" path="res://Art/wii/swing/frame_03.png" id="173_saeuq"]
-[ext_resource type="Texture2D" uid="uid://degkte51rujas" path="res://Art/character/frame_14.png" id="174_dv4iu"]
 [ext_resource type="Texture2D" uid="uid://db51f2fckrnax" path="res://Art/wii/swing/frame_04.png" id="174_h186a"]
 [ext_resource type="Texture2D" uid="uid://dqmd8fsbkava7" path="res://Art/pizza/slices/Untitled_Artwork-7.png" id="174_lpg44"]
-[ext_resource type="Texture2D" uid="uid://dxk327i7f3qly" path="res://Art/character/frame_15.png" id="175_e80kf"]
 [ext_resource type="Texture2D" uid="uid://ded3hjpd33xgc" path="res://Art/wii/swing/frame_05.png" id="175_xy8ya"]
 [ext_resource type="Texture2D" uid="uid://cf85gkldjpk8v" path="res://Art/pizza/slices/Untitled_Artwork-8.png" id="175_y1gki"]
-[ext_resource type="Texture2D" uid="uid://d2sru7beo855f" path="res://Art/character/frame_16.png" id="176_8lmbg"]
 [ext_resource type="Texture2D" uid="uid://da5hk1d2dpr7m" path="res://Art/wii/swing/frame_06.png" id="176_wtlgf"]
 [ext_resource type="Texture2D" uid="uid://boaaaw2yupb51" path="res://Art/wii/swing/frame_07.png" id="177_dorq1"]
-[ext_resource type="Texture2D" uid="uid://rqfjel7io4j1" path="res://Art/character/frame_17.png" id="177_n2cpk"]
-[ext_resource type="Texture2D" uid="uid://bojwjw37ef1uy" path="res://Art/character/frame_18.png" id="178_k7w2v"]
 [ext_resource type="Texture2D" uid="uid://04b8peutiple" path="res://Art/wii/swing/frame_08.png" id="178_u7f2x"]
-[ext_resource type="Texture2D" uid="uid://cw52g5hjxueev" path="res://Art/character/frame_19.png" id="179_7va32"]
 [ext_resource type="Texture2D" uid="uid://def862o40i4ku" path="res://Art/wii/swing/frame_09.png" id="179_ugo8c"]
-[ext_resource type="Texture2D" uid="uid://d02di0f1ptsdr" path="res://Art/character/frame_20.png" id="180_3xx7e"]
 [ext_resource type="Texture2D" uid="uid://dv34h6284hgnu" path="res://Art/wii/swing/frame_10.png" id="180_nf1h2"]
 [ext_resource type="Texture2D" uid="uid://7xxq1pjqyw30" path="res://Art/wii/swing/frame_11.png" id="181_mv3pa"]
-[ext_resource type="Texture2D" uid="uid://585xdxsk4hfi" path="res://Art/character/frame_21.png" id="181_ul0h4"]
-[ext_resource type="Texture2D" uid="uid://hbi067h74red" path="res://Art/character/frame_22.png" id="182_gqipy"]
 [ext_resource type="Texture2D" uid="uid://bqwyumuiw1eam" path="res://Art/wii/swing/frame_12.png" id="182_npckp"]
 [ext_resource type="Texture2D" uid="uid://5kwtphikwybx" path="res://Art/wii/swing/frame_13.png" id="183_lpg44"]
-[ext_resource type="Texture2D" uid="uid://ks2w3roo0sdu" path="res://Art/character/frame_23.png" id="183_ore4n"]
-[ext_resource type="Texture2D" uid="uid://s10t3eq575q3" path="res://Art/character/frame_24.png" id="184_vpdwf"]
 [ext_resource type="Texture2D" uid="uid://x0vpvt3y7hqb" path="res://Art/wii/swing/frame_14.png" id="184_y1gki"]
-[ext_resource type="Texture2D" uid="uid://bevqolpmk85p2" path="res://Art/character/frame_25.png" id="185_6looh"]
 [ext_resource type="Texture2D" uid="uid://dihpxhj2ftovh" path="res://Art/wii/swing/frame_15.png" id="185_eoht1"]
-[ext_resource type="Texture2D" uid="uid://dex8867373ri8" path="res://Art/character/frame_26.png" id="186_o48hj"]
 [ext_resource type="Texture2D" uid="uid://03i4s5gqdclv" path="res://Art/wii/swing/frame_16.png" id="186_x8pim"]
-[ext_resource type="Texture2D" uid="uid://cegdqvd26cb36" path="res://Art/character/frame_27.png" id="187_45mhg"]
 [ext_resource type="Texture2D" uid="uid://brtacerhjh2uk" path="res://Art/wii/swing/frame_17.png" id="187_vu6bj"]
 [ext_resource type="Texture2D" uid="uid://qth65v6rfbsq" path="res://Art/wii/swing/frame_18.png" id="188_bhiq7"]
-[ext_resource type="Texture2D" uid="uid://djrda5p34rldh" path="res://Art/character/frame_28.png" id="188_rgxdg"]
 [ext_resource type="Texture2D" uid="uid://bpcphplijlaj6" path="res://Art/wii/swing/frame_19.png" id="189_hapm4"]
-[ext_resource type="Texture2D" uid="uid://ddf4sotl6s3sr" path="res://Art/character/frame_29.png" id="189_tl5jb"]
-[ext_resource type="Texture2D" uid="uid://22oh3ca3rg02" path="res://Art/character/frame_30.png" id="190_gckwj"]
 [ext_resource type="Texture2D" uid="uid://clk6sueexhg70" path="res://Art/wii/swing/frame_20.png" id="190_wrxlp"]
 [ext_resource type="Texture2D" uid="uid://bbqje48lti0io" path="res://Art/wii/swing/frame_21.png" id="191_hku2t"]
-[ext_resource type="Texture2D" uid="uid://iu5lb0fw6hl3" path="res://Art/character/frame_31.png" id="191_m7bcm"]
 [ext_resource type="Texture2D" uid="uid://bkj1pml66nf0p" path="res://Art/wii/swing/frame_22.png" id="192_wlyrk"]
-[ext_resource type="Texture2D" uid="uid://c07smikqpyyxa" path="res://Art/character/frame_32.png" id="192_x8wul"]
-[ext_resource type="Texture2D" uid="uid://bxpil7s3o28ib" path="res://Art/character/frame_33.png" id="193_rwfnq"]
 [ext_resource type="Texture2D" uid="uid://1mh5jneuabj5" path="res://Art/wii/swing/frame_23.png" id="193_sluet"]
-[ext_resource type="Texture2D" uid="uid://dw5cetasmmdar" path="res://Art/character/frame_34.png" id="194_ic5ri"]
 [ext_resource type="Texture2D" uid="uid://kt6d14c8r3rd" path="res://Art/wii/swing/frame_24.png" id="194_nyj6a"]
-[ext_resource type="Texture2D" uid="uid://bh3k34p5w78ym" path="res://Art/character/frame_35.png" id="195_yv31h"]
-[ext_resource type="Texture2D" uid="uid://byfekto40kd80" path="res://Art/character/frame_36.png" id="196_6ecqq"]
-[ext_resource type="Texture2D" uid="uid://c8n55f3oia6un" path="res://Art/character/frame_37.png" id="197_if84k"]
-[ext_resource type="Texture2D" uid="uid://dawjqm5kuni5u" path="res://Art/character/frame_38.png" id="198_nh8i1"]
-[ext_resource type="Texture2D" uid="uid://oq3ojjf7w4r" path="res://Art/character/frame_39.png" id="199_gxnpd"]
-[ext_resource type="Texture2D" uid="uid://chh4nr05eknan" path="res://Art/character/frame_40.png" id="200_saeuq"]
-[ext_resource type="Texture2D" uid="uid://d3ghpqi7dfh0v" path="res://Art/character/frame_41.png" id="201_h186a"]
-[ext_resource type="Texture2D" uid="uid://chj6enobb184o" path="res://Art/character/frame_42.png" id="202_xy8ya"]
-[ext_resource type="Texture2D" uid="uid://dw0pet61j88yb" path="res://Art/character/frame_43.png" id="203_wtlgf"]
-[ext_resource type="Texture2D" uid="uid://30d1gf7ugbyn" path="res://Art/character/frame_44.png" id="204_dorq1"]
-[ext_resource type="Texture2D" uid="uid://f224lsr5rjwy" path="res://Art/character/frame_45.png" id="205_u7f2x"]
-[ext_resource type="Texture2D" uid="uid://dcoojps7kl314" path="res://Art/character/frame_46.png" id="206_ugo8c"]
-[ext_resource type="Texture2D" uid="uid://cxgm2cj6smoox" path="res://Art/character/frame_47.png" id="207_nf1h2"]
-[ext_resource type="Texture2D" uid="uid://bjgwsmrl7opmx" path="res://Art/character/frame_48.png" id="208_mv3pa"]
-[ext_resource type="Texture2D" uid="uid://d3ocgs41sn7sr" path="res://Art/character/frame_49.png" id="209_npckp"]
-[ext_resource type="Texture2D" uid="uid://dx18c0qdty4sp" path="res://Art/character/frame_50.png" id="210_lpg44"]
-[ext_resource type="Texture2D" uid="uid://dlaxe2lc7iyrc" path="res://Art/character/frame_51.png" id="211_y1gki"]
-[ext_resource type="Texture2D" uid="uid://hns3rdkl1hcy" path="res://Art/character/frame_52.png" id="212_eoht1"]
-[ext_resource type="Texture2D" uid="uid://bioenmk86ksey" path="res://Art/character/frame_53.png" id="213_x8pim"]
-[ext_resource type="Texture2D" uid="uid://8sutvn50wbf8" path="res://Art/character/frame_54.png" id="214_vu6bj"]
-[ext_resource type="Texture2D" uid="uid://8v8ntvx4cmko" path="res://Art/character/frame_55.png" id="215_bhiq7"]
-[ext_resource type="Texture2D" uid="uid://dpeudhhd86j04" path="res://Art/character/frame_56.png" id="216_hapm4"]
-[ext_resource type="Texture2D" uid="uid://btjhrua780wl6" path="res://Art/character/frame_57.png" id="217_wrxlp"]
-[ext_resource type="Texture2D" uid="uid://ki8pj7aiclcn" path="res://Art/character/frame_58.png" id="218_hku2t"]
-[ext_resource type="Texture2D" uid="uid://dvga1xdlliayp" path="res://Art/character/frame_59.png" id="219_wlyrk"]
-[ext_resource type="Texture2D" uid="uid://d3muj421dc1ed" path="res://Art/character/frame_60.png" id="220_sluet"]
-[ext_resource type="Texture2D" uid="uid://4vml4dmbvbce" path="res://Art/character/frame_61.png" id="221_nyj6a"]
-[ext_resource type="Texture2D" uid="uid://cppdqkg2048f2" path="res://Art/character/frame_62.png" id="222_u35ne"]
-[ext_resource type="Texture2D" uid="uid://bxfdjhjy1jnj" path="res://Art/character/frame_63.png" id="223_ycugy"]
-[ext_resource type="Texture2D" uid="uid://bc8orn55gn0yc" path="res://Art/character/frame_64.png" id="224_j6gs5"]
-[ext_resource type="Texture2D" uid="uid://chwbhij776l10" path="res://Art/character/frame_65.png" id="225_us3ac"]
-[ext_resource type="Texture2D" uid="uid://bjjw8g2atsbkn" path="res://Art/character/frame_66.png" id="226_va0ws"]
-[ext_resource type="Texture2D" uid="uid://cvep8acwj3a37" path="res://Art/character/frame_67.png" id="227_2o5il"]
-[ext_resource type="Texture2D" uid="uid://yx4tbnwuuw1l" path="res://Art/character/frame_68.png" id="228_cbjqf"]
-[ext_resource type="Texture2D" uid="uid://cuy3dt62pk310" path="res://Art/character/frame_69.png" id="229_2lvnk"]
-[ext_resource type="Texture2D" uid="uid://dtg61rhjp4hup" path="res://Art/character/frame_70.png" id="230_vgotv"]
-[ext_resource type="Texture2D" uid="uid://yf5d8vpewl7k" path="res://Art/character/frame_71.png" id="231_al0os"]
-[ext_resource type="Texture2D" uid="uid://gwfgvcn58yju" path="res://Art/character/frame_72.png" id="232_dif85"]
-[ext_resource type="Texture2D" uid="uid://c5ja230amvpcn" path="res://Art/character/frame_73.png" id="233_sx0qi"]
-[ext_resource type="Texture2D" uid="uid://c3vgocuyosv23" path="res://Art/character/frame_74.png" id="234_bwlpu"]
-[ext_resource type="Texture2D" uid="uid://ckmi72eh8t0iq" path="res://Art/character/frame_75.png" id="235_apjag"]
 [ext_resource type="Texture2D" uid="uid://b66vhq0uqxjdf" path="res://Art/Images/Images/I1.png" id="280_ugo8c"]
 [ext_resource type="Texture2D" uid="uid://dib64ir67knkv" path="res://Art/Images/Images/I2.png" id="281_nf1h2"]
-[ext_resource type="Script" uid="uid://c4miv61lbrql0" path="res://Scenes/wiggler.gd" id="281_u35ne"]
+[ext_resource type="Script" uid="uid://c4miv61lbrql0" path="res://Scripts/wiggler.gd" id="281_u35ne"]
 [ext_resource type="Texture2D" uid="uid://cgdubnavlxrj2" path="res://Art/Images/Images/I3.png" id="282_y1gki"]
 [ext_resource type="Texture2D" uid="uid://b7g7n18l0b7wi" path="res://Art/Images/Images/I4.png" id="283_eoht1"]
 [ext_resource type="Texture2D" uid="uid://btgh5pmxiul7b" path="res://Art/Images/Images/I5.png" id="284_x8pim"]
@@ -300,7 +226,10 @@
 [ext_resource type="Texture2D" uid="uid://dblnis4hqgmh1" path="res://Art/Images/Images/I16.png" id="293_hku2t"]
 [ext_resource type="Texture2D" uid="uid://d33jyw5gjhlw2" path="res://Art/Images/Images/I18.png" id="294_wlyrk"]
 [ext_resource type="Texture2D" uid="uid://c425quep741oa" path="res://Art/Images/Images/I20.png" id="295_nyj6a"]
-[ext_resource type="Script" uid="uid://cjyey7yejpntj" path="res://Scenes/letter_moment.gd" id="295_sluet"]
+[ext_resource type="Script" uid="uid://cjyey7yejpntj" path="res://Scripts/letter_moment.gd" id="295_sluet"]
+[ext_resource type="Texture2D" uid="uid://u4dmrfi76r3" path="res://Art/Controls/Untitled_Artwork.png" id="299_dif85"]
+[ext_resource type="Texture2D" uid="uid://b1jb0pwgwmkdg" path="res://Art/Controls/Untitled_Artwork 2.png" id="300_sx0qi"]
+[ext_resource type="Texture2D" uid="uid://c6cwxpeikxrea" path="res://Art/Controls/Untitled_Artwork 3.png" id="301_sx0qi"]
 [ext_resource type="Texture2D" uid="uid://dbpkg0akefa7i" path="res://Art/Controls/Untitled_Artwork-3.png" id="302_va0ws"]
 [ext_resource type="Texture2D" uid="uid://ch8xcubtgpdan" path="res://Art/Controls/Untitled_Artwork-1 2.png" id="303_2o5il"]
 [ext_resource type="Texture2D" uid="uid://bixu6ft3aw2bg" path="res://Art/Controls/Untitled_Artwork-2 2.png" id="304_cbjqf"]
@@ -321,6 +250,14 @@ script/source = "extends Node2D
 @export_group(\"Dialogue\")
 @export var dialogue_key : String
 
+@export_group(\"Controls\")
+@export var arrows : Sprite2D
+@export var dpad : Sprite2D
+@export var zbutton : Sprite2D
+@export var facebutton : Sprite2D
+@export var arrows_zbutton : Sprite2D
+@export var dpad_facebutton : Sprite2D
+
 var interactiveNum : int = 0
 # BOOLS for the items
 
@@ -329,11 +266,19 @@ var wii : bool = false
 var pizza : bool = false
 var cards : bool = false
 
+var play_screen : bool = false
+
+var car_controls : bool = false
+var card_controls: bool = false
+var pizza_controls : bool = false
+var wii_controls : bool = false
+
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
 	# Play Static
 	SoundManager.fade_in_bgs(\"Static\",2.0)
 	await get_tree().create_timer(3).timeout
+	#try_focus() # TEST
 	# VM Logo
 	fade_tween($Logo)
 	await get_tree().create_timer(7).timeout
@@ -347,8 +292,10 @@ func _ready() -> void:
 	await get_tree().create_timer(4).timeout
 	fade_tween_in($Title)
 	SoundManager.fade_in_bgm(\"BG_Title\",2.0)
-	fade_tween_in($Button)
-	$Button.disabled = false
+	await get_tree().create_timer(4).timeout
+	$Button.show()
+	await get_tree().create_timer(1).timeout
+	play_screen = true
 
 func start():
 	# read the dialogue JSON file
@@ -358,13 +305,55 @@ func start():
 	fade_tween_in($I1)
 	SoundManager.fade_into_bgm(\"BG_Flat\",\"BG_Title\",5.0,0,-15)
 	await get_tree().create_timer(4.0).timeout
-	activate_moment($LetterMoment)
-	introsky()
+	#activate_moment($LetterMoment)
+	#introsky()
 	dialogue_go(dialogue_key)
-	pass # Replace with function body.
-# Called every frame. 'delta' is the elapsed time since the previous frame.
-func _process(delta: float) -> void:
-	pass
+
+func _unhandled_input(event: InputEvent) -> void:
+	if event is InputEventJoypadMotion:
+		return
+	if event.is_pressed():
+		# don't do anything if play_screen isn't up
+		if play_screen == false:
+			return
+		else:
+			play_screen = false
+			$Button.hide()
+			SoundManager.play_mfx(\"Select\",0,5)
+			await get_tree().create_timer(0.5).timeout
+			fade_tween_out($Title)
+			await get_tree().create_timer(7).timeout
+			start()
+
+func _input(event: InputEvent) -> void:
+	if event is InputEventKey or event is InputEventMouse:
+		# for car
+		if car_controls == true: 
+			arrows.show()
+			dpad.hide()
+		elif card_controls == true: 
+			zbutton.show()
+			facebutton.hide()
+		elif pizza_controls == true: 
+			zbutton.show()
+			facebutton.hide()
+		elif wii_controls == true: 
+			arrows_zbutton.show()
+			dpad_facebutton.hide()
+	elif event is InputEventJoypadButton or event is InputEventJoypadMotion:
+		# for car
+		if car_controls == true:
+			dpad.show()
+			arrows.hide()
+		elif card_controls == true: 
+			facebutton.show()
+			zbutton.hide()
+		elif pizza_controls == true: 
+			facebutton.show()
+			zbutton.hide()
+		elif wii_controls == true: 
+			dpad_facebutton.show()
+			arrows_zbutton.hide()
 
 func signals_connected():
 	DialogueManager.keyboard_image.connect(keyboard_next)
@@ -414,62 +403,88 @@ func circles_appear():
 	# fade in the character on the stilts
 	fade_tween_in($CharacterStilts)
 	# turn on clickable access for each section
-	$Circles/CardsIcon/CollisionShape2D.disabled = false
-	$Circles/CarIcon/CollisionShape2D.disabled = false
-	$Circles/PizzaIcon/CollisionShape2D.disabled = false
-	$Circles/WiiIcon/CollisionShape2D.disabled = false
-	#$Circles/WiiIcon/CollisionShape2D2.disabled = false
+	$Circles/CardsIcon.disabled = false
+	$Circles/CarIcon.disabled = false
+	$Circles/PizzaIcon.disabled = false
+	$Circles/WiiIcon.disabled = false
+	# and the focuse modes turned on
+	$Circles/CardsIcon.focus_mode = Control.FOCUS_ALL
+	$Circles/CarIcon.focus_mode = Control.FOCUS_ALL
+	$Circles/PizzaIcon.focus_mode = Control.FOCUS_ALL
+	$Circles/WiiIcon.focus_mode = Control.FOCUS_ALL
+	try_focus()
 
 func disable_collisions():
-	$Circles/CardsIcon/CollisionShape2D.disabled = true
-	$Circles/CarIcon/CollisionShape2D.disabled = true
-	$Circles/PizzaIcon/CollisionShape2D.disabled = true
-	$Circles/WiiIcon/CollisionShape2D.disabled = true
+	$Circles/CardsIcon.disabled = true
+	$Circles/CarIcon.disabled = true
+	$Circles/PizzaIcon.disabled = true
+	$Circles/WiiIcon.disabled = true
+	# and the focus
+	$Circles/CardsIcon.focus_mode = Control.FOCUS_NONE
+	$Circles/CarIcon.focus_mode = Control.FOCUS_NONE
+	$Circles/PizzaIcon.focus_mode = Control.FOCUS_NONE
+	$Circles/WiiIcon.focus_mode = Control.FOCUS_NONE
+
+func disable_controls():
+	arrows.hide()
+	arrows_zbutton.hide()
+	dpad.hide()
+	dpad_facebutton.hide()
+	facebutton.hide()
+	zbutton.hide()
+	
+	wii_controls = false
+	pizza_controls = false
+	car_controls = false
+	card_controls = false
+
+func try_focus():
+	var icon_array = $Circles.get_children()
+	print(icon_array)
+	var focus_grabbed : bool = false
+	for icon in icon_array:
+		if icon.visible == true:
+			if focus_grabbed == false:
+				icon.grab_focus()
+				focus_grabbed = true
+	focus_grabbed = false
 
 func mini_done_reset():
-	interactiveNum += 1
-	fade_tween_out($Arrows)
-	fade_tween_out($ArroZ)
-	fade_tween_out($Z)
-	SoundManager.stop(\"Car\")
+	disable_controls()
 	if interactiveNum >= 4:
 		for moment in get_children():
 			if moment.has_method(\"deactivate\"):
 				fade_tween_out(moment)
 				await get_tree().create_timer(.5).timeout
 				moment.deactivate()
+		SoundManager.stop(\"Car\")
 		SoundManager.fade_into_bgm(\"BG_Flat\",\"BG_Title\",4.0,0,-15)
+		await get_tree().create_timer(3.0).timeout
 		dialogue_go(\"OffRamp\")
 		# another function to review the boards
 	else: 
 		circles_appear()
 
+
 func enclose():
+	# this is the updated end - fade to black and go to the next scene
 	await get_tree().create_timer(5).timeout
-	fade_tween_out($BackgroundNew)
-	$Thanks.visible = true
-	$Thanks2.visible = true
-	fade_tween_in($CarMoment2)
-	activate_moment($CarMoment2)
-	SoundManager.play_bgs(\"Car\")
-	await get_tree().create_timer(3).timeout
-	var tween = create_tween()
-	SoundManager.play_sfx(\"Zoom\")
-	tween.tween_property($Foreground, \"scale\", Vector2(1,1), 5) 
-	await tween.finished
-	await get_tree().create_timer(2).timeout
-	fade_tween_in($Thanks)
-	fade_tween_in($MiniLogo)
-	await get_tree().create_timer(1).timeout
-	fade_tween_in($Thanks2)
-	await get_tree().create_timer(3).timeout
-	fade_tween_in($Button2)
-	$Button2.disabled = false
+	SoundManager.fade_out(\"BG_Letter\",2.0)
+	fade_tween_in($Black)
+	await get_tree().create_timer(4).timeout
+	SoundManager.stop_all()
+	await get_tree().create_timer(6).timeout
+	get_tree().change_scene_to_file(\"res://Scenes/end.tscn\")
 
 
 func lettersetup():
 	await get_tree().create_timer(4).timeout
 	fade_tween_out($I16)
+	fade_tween_in($Black)
+	await get_tree().create_timer(2).timeout
+	SoundManager.stop_all()
+	await get_tree().create_timer(8).timeout
+	fade_tween_out($Black)
 	await get_tree().create_timer(2).timeout
 	var tween2 = get_tree().create_tween()
 	tween2.tween_property($BackgroundNew,\"modulate:a\",0.78,6)
@@ -477,8 +492,8 @@ func lettersetup():
 	fade_tween_in($LetterMoment)
 	await get_tree().create_timer(4.0).timeout
 	dialogue_go(\"Letter\")
-	await get_tree().create_timer(4).timeout
-	SoundManager.fade_into_bgm(\"BG_Letter\",\"BG_Flat\",4.0,0,-15)
+	await get_tree().create_timer(3).timeout
+	SoundManager.fade_in_bgm(\"BG_Letter\",2.0,0,-15)
 	
 # ACTIVATE THE PROCESS MOMENT
 func activate_moment(target_moment: Node):
@@ -488,72 +503,78 @@ func activate_moment(target_moment: Node):
 	target_moment.activate()
 
 # SIGNAL FUNCTIONS CLICKS
-func _on_car_icon_input_event(viewport: Node, event: InputEvent, shape_idx: int) -> void:
-	if event is InputEventMouseButton and event.pressed:
-		if not car:
-			car = true
-			SoundManager.play_mfx(\"Select\")
-			fade_tween_out($Circles)
-			fade_tween_out($CharacterStilts)
-			activate_moment($CarMoment)
-			fade_tween_in($CarMoment)
-			fade_tween_in($Arrows)
-			disable_collisions()
-			await get_tree().create_timer(4.0).timeout
-			$Circles.visible = false
-			dialogue_go(\"PaperCar\")
+func _on_car_icon_pressed() -> void:
+	if not car:
+		car = true
+		SoundManager.play_mfx(\"Select\")
+		fade_tween_out($Circles)
+		fade_tween_out($CharacterStilts)
+		# add some time in between selecting and starting the moment
+		get_tree().create_timer(3.0).timeout
+		activate_moment($CarMoment)
+		fade_tween_in($CarMoment)
+		# Check For Controller
+		car_controls = true
+		disable_collisions()
+		interactiveNum += 1
+		await get_tree().create_timer(4.0).timeout
+		$Circles.visible = false
+		dialogue_go(\"PaperCar\")
 
-func _on_cards_icon_input_event(viewport: Node, event: InputEvent, shape_idx: int) -> void:
-	if event is InputEventMouseButton and event.pressed:
-			if not cards:
-				SoundManager.stop(\"Car\")
-				cards = true
-				SoundManager.play_mfx(\"Select\")
-				fade_tween_out($Circles)
-				fade_tween_out($CharacterStilts)
-				activate_moment($CardMoment)
-				fade_tween_in($CardMoment)
-				fade_tween_in($Z)
-				disable_collisions()
-				await get_tree().create_timer(4.0).timeout
-				$Circles.visible = false
-				dialogue_go(\"PaperCards\")
+func _on_cards_icon_pressed() -> void:
+	if not cards:
+		SoundManager.stop(\"Car\")
+		cards = true
+		SoundManager.play_mfx(\"Select\")
+		fade_tween_out($Circles)
+		fade_tween_out($CharacterStilts)
+		get_tree().create_timer(3.0).timeout
+		activate_moment($CardMoment)
+		fade_tween_in($CardMoment)
+		card_controls = true
+		disable_collisions()
+		interactiveNum += 1
+		await get_tree().create_timer(4.0).timeout
+		$Circles.visible = false
+		dialogue_go(\"PaperCards\")
 
-func _on_wii_icon_input_event(viewport: Node, event: InputEvent, shape_idx: int) -> void:
-	if event is InputEventMouseButton and event.pressed:
-		if not wii:
-			wii = true
-			SoundManager.stop(\"Car\")
-			SoundManager.play_mfx(\"Select\")
-			fade_tween_out($Circles)
-			fade_tween_out($CharacterStilts)
-			activate_moment($WiiMoment)
-			fade_tween_in($WiiMoment)
-			fade_tween_in($ArroZ)
-			disable_collisions()
-			await get_tree().create_timer(4.0).timeout
-			$Circles.visible = false
-			dialogue_go(\"WiiBowling\")
+func _on_wii_icon_pressed() -> void:
+	if not wii:
+		wii = true
+		SoundManager.stop(\"Car\")
+		SoundManager.play_mfx(\"Select\")
+		fade_tween_out($Circles)
+		fade_tween_out($CharacterStilts)
+		get_tree().create_timer(3.0).timeout
+		activate_moment($WiiMoment)
+		fade_tween_in($WiiMoment)
+		wii_controls = true
+		disable_collisions()
+		interactiveNum += 1
+		await get_tree().create_timer(4.0).timeout
+		$Circles.visible = false
+		dialogue_go(\"WiiBowling\")
 
-func _on_pizza_icon_input_event(viewport: Node, event: InputEvent, shape_idx: int) -> void:
-	if event is InputEventMouseButton and event.pressed:
-		if not pizza:
-			pizza = true
-			SoundManager.stop(\"Car\")
-			SoundManager.play_mfx(\"Select\")
-			fade_tween_out($Circles)
-			fade_tween_out($CharacterStilts)
-			activate_moment($PizzaMoment)
-			fade_tween_in($PizzaMoment)
-			fade_tween_in($Z)
-			disable_collisions()
-			await get_tree().create_timer(4.0).timeout
-			$Circles.visible = false
-			dialogue_go(\"PaperPizza\")
+func _on_pizza_icon_pressed() -> void:
+	if not pizza:
+		pizza = true
+		SoundManager.stop(\"Car\")
+		SoundManager.play_mfx(\"Select\")
+		fade_tween_out($Circles)
+		fade_tween_out($CharacterStilts)
+		get_tree().create_timer(3.0).timeout
+		activate_moment($PizzaMoment)
+		fade_tween_in($PizzaMoment)
+		pizza_controls = true
+		disable_collisions()
+		interactiveNum += 1
+		await get_tree().create_timer(4.0).timeout
+		$Circles.visible = false
+		dialogue_go(\"PaperPizza\")
+
 
 
 # HELPER FUNCTIONS
-
 func dialogue_go(dialogue_key):
 	DialogueManager.dialogue_player(dialogue_key)
 
@@ -586,24 +607,6 @@ func fade_in_sky():
 func fade_out_sky():
 	var tween2 = get_tree().create_tween()
 	tween2.tween_property($BackgroundNew,\"modulate:a\",0.78,1.5)
-
-
-func _on_button_pressed() -> void:
-	await get_tree().create_timer(0.5).timeout
-	SoundManager.play_mfx(\"Select\")
-	fade_tween_out($Title)
-	fade_tween_out($Button)
-	$Button.disabled = true
-	await get_tree().create_timer(7).timeout
-	start()
-	pass # Replace with function body.
-
-
-func _on_button_2_pressed() -> void:
-	await get_tree().create_timer(0.5).timeout
-	SoundManager.play_mfx(\"Select\")
-	await get_tree().create_timer(3).timeout
-	get_tree().quit()
 "
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_tab3y"]
@@ -1031,239 +1034,6 @@ animations = [{
 _data = [Vector2(0.0121951, 1), 0.0, 1.4, 0, 0, Vector2(1, 0.22327), 0.0, 0.0, 0, 0]
 point_count = 2
 
-[sub_resource type="SpriteFrames" id="SpriteFrames_hvxn0"]
-animations = [{
-"frames": [{
-"duration": 1.0,
-"texture": ExtResource("161_ffxd5")
-}, {
-"duration": 1.0,
-"texture": ExtResource("162_f2hid")
-}, {
-"duration": 1.0,
-"texture": ExtResource("163_jwypt")
-}, {
-"duration": 1.0,
-"texture": ExtResource("164_bqs45")
-}, {
-"duration": 1.0,
-"texture": ExtResource("165_s2nl6")
-}, {
-"duration": 1.0,
-"texture": ExtResource("166_ddyu8")
-}, {
-"duration": 1.0,
-"texture": ExtResource("167_e104q")
-}, {
-"duration": 1.0,
-"texture": ExtResource("168_y6fhn")
-}, {
-"duration": 1.0,
-"texture": ExtResource("169_ecp88")
-}, {
-"duration": 1.0,
-"texture": ExtResource("170_vhoi0")
-}, {
-"duration": 1.0,
-"texture": ExtResource("171_jmisg")
-}, {
-"duration": 1.0,
-"texture": ExtResource("172_refj4")
-}, {
-"duration": 1.0,
-"texture": ExtResource("173_47mp3")
-}, {
-"duration": 1.0,
-"texture": ExtResource("174_dv4iu")
-}, {
-"duration": 1.0,
-"texture": ExtResource("175_e80kf")
-}, {
-"duration": 1.0,
-"texture": ExtResource("176_8lmbg")
-}, {
-"duration": 1.0,
-"texture": ExtResource("177_n2cpk")
-}, {
-"duration": 1.0,
-"texture": ExtResource("178_k7w2v")
-}, {
-"duration": 1.0,
-"texture": ExtResource("179_7va32")
-}, {
-"duration": 1.0,
-"texture": ExtResource("180_3xx7e")
-}, {
-"duration": 1.0,
-"texture": ExtResource("181_ul0h4")
-}, {
-"duration": 1.0,
-"texture": ExtResource("182_gqipy")
-}, {
-"duration": 1.0,
-"texture": ExtResource("183_ore4n")
-}, {
-"duration": 1.0,
-"texture": ExtResource("184_vpdwf")
-}, {
-"duration": 1.0,
-"texture": ExtResource("185_6looh")
-}, {
-"duration": 1.0,
-"texture": ExtResource("186_o48hj")
-}, {
-"duration": 1.0,
-"texture": ExtResource("187_45mhg")
-}, {
-"duration": 1.0,
-"texture": ExtResource("188_rgxdg")
-}, {
-"duration": 1.0,
-"texture": ExtResource("189_tl5jb")
-}, {
-"duration": 1.0,
-"texture": ExtResource("190_gckwj")
-}, {
-"duration": 1.0,
-"texture": ExtResource("191_m7bcm")
-}, {
-"duration": 1.0,
-"texture": ExtResource("192_x8wul")
-}, {
-"duration": 1.0,
-"texture": ExtResource("193_rwfnq")
-}, {
-"duration": 1.0,
-"texture": ExtResource("194_ic5ri")
-}, {
-"duration": 1.0,
-"texture": ExtResource("195_yv31h")
-}, {
-"duration": 1.0,
-"texture": ExtResource("196_6ecqq")
-}, {
-"duration": 1.0,
-"texture": ExtResource("197_if84k")
-}, {
-"duration": 1.0,
-"texture": ExtResource("198_nh8i1")
-}, {
-"duration": 1.0,
-"texture": ExtResource("199_gxnpd")
-}, {
-"duration": 1.0,
-"texture": ExtResource("200_saeuq")
-}, {
-"duration": 1.0,
-"texture": ExtResource("201_h186a")
-}, {
-"duration": 1.0,
-"texture": ExtResource("202_xy8ya")
-}, {
-"duration": 1.0,
-"texture": ExtResource("203_wtlgf")
-}, {
-"duration": 1.0,
-"texture": ExtResource("204_dorq1")
-}, {
-"duration": 1.0,
-"texture": ExtResource("205_u7f2x")
-}, {
-"duration": 1.0,
-"texture": ExtResource("206_ugo8c")
-}, {
-"duration": 1.0,
-"texture": ExtResource("207_nf1h2")
-}, {
-"duration": 1.0,
-"texture": ExtResource("208_mv3pa")
-}, {
-"duration": 1.0,
-"texture": ExtResource("209_npckp")
-}, {
-"duration": 1.0,
-"texture": ExtResource("210_lpg44")
-}, {
-"duration": 1.0,
-"texture": ExtResource("211_y1gki")
-}, {
-"duration": 1.0,
-"texture": ExtResource("212_eoht1")
-}, {
-"duration": 1.0,
-"texture": ExtResource("213_x8pim")
-}, {
-"duration": 1.0,
-"texture": ExtResource("214_vu6bj")
-}, {
-"duration": 1.0,
-"texture": ExtResource("215_bhiq7")
-}, {
-"duration": 1.0,
-"texture": ExtResource("216_hapm4")
-}, {
-"duration": 1.0,
-"texture": ExtResource("217_wrxlp")
-}, {
-"duration": 1.0,
-"texture": ExtResource("218_hku2t")
-}, {
-"duration": 1.0,
-"texture": ExtResource("219_wlyrk")
-}, {
-"duration": 1.0,
-"texture": ExtResource("220_sluet")
-}, {
-"duration": 1.0,
-"texture": ExtResource("221_nyj6a")
-}, {
-"duration": 1.0,
-"texture": ExtResource("222_u35ne")
-}, {
-"duration": 1.0,
-"texture": ExtResource("223_ycugy")
-}, {
-"duration": 1.0,
-"texture": ExtResource("224_j6gs5")
-}, {
-"duration": 1.0,
-"texture": ExtResource("225_us3ac")
-}, {
-"duration": 1.0,
-"texture": ExtResource("226_va0ws")
-}, {
-"duration": 1.0,
-"texture": ExtResource("227_2o5il")
-}, {
-"duration": 1.0,
-"texture": ExtResource("228_cbjqf")
-}, {
-"duration": 1.0,
-"texture": ExtResource("229_2lvnk")
-}, {
-"duration": 1.0,
-"texture": ExtResource("230_vgotv")
-}, {
-"duration": 1.0,
-"texture": ExtResource("231_al0os")
-}, {
-"duration": 1.0,
-"texture": ExtResource("232_dif85")
-}, {
-"duration": 1.0,
-"texture": ExtResource("233_sx0qi")
-}, {
-"duration": 1.0,
-"texture": ExtResource("234_bwlpu")
-}, {
-"duration": 1.0,
-"texture": ExtResource("235_apjag")
-}],
-"loop": true,
-"name": &"default",
-"speed": 12.0
-}]
-
 [sub_resource type="SpriteFrames" id="SpriteFrames_5fyhb"]
 animations = [{
 "frames": [{
@@ -1497,96 +1267,60 @@ animations = [{
 "speed": 12.0
 }]
 
-[sub_resource type="FontVariation" id="FontVariation_al0os"]
-base_font = ExtResource("307_vgotv")
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_6umt7"]
+texture = ExtResource("160_hprjy")
+modulate_color = Color(0.831373, 0.705882, 1, 1)
 
-[sub_resource type="SpriteFrames" id="SpriteFrames_qhhnr"]
-animations = [{
-"frames": [{
-"duration": 1.0,
-"texture": ExtResource("3_658pa")
-}],
-"loop": true,
-"name": &"default",
-"speed": 5.0
-}]
-
-[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_11vbv"]
-radius = 46.6429
-height = 200.172
-
-[sub_resource type="SpriteFrames" id="SpriteFrames_32yv2"]
-animations = [{
-"frames": [{
-"duration": 1.0,
-"texture": ExtResource("158_11vbv")
-}],
-"loop": true,
-"name": &"default",
-"speed": 5.0
-}]
-
-[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_vgotv"]
-radius = 65.9552
-height = 197.866
-
-[sub_resource type="SpriteFrames" id="SpriteFrames_85qtq"]
-animations = [{
-"frames": [{
-"duration": 1.0,
-"texture": ExtResource("159_m6w5j")
-}],
-"loop": true,
-"name": &"default",
-"speed": 5.0
-}]
-
-[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_hprjy"]
-radius = 83.6358
-height = 260.406
-
-[sub_resource type="SpriteFrames" id="SpriteFrames_8d8ul"]
-animations = [{
-"frames": [{
-"duration": 1.0,
-"texture": ExtResource("160_hprjy")
-}],
-"loop": true,
-"name": &"default",
-"speed": 5.0
-}]
-
-[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_m6w5j"]
-radius = 66.6262
-height = 175.998
-
-[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_2lvnk"]
-
-[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_vgotv"]
-
-[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_al0os"]
-
-[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_sx0qi"]
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_sx0qi"]
+texture = ExtResource("160_hprjy")
 
 [sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_bwlpu"]
 
-[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_apjag"]
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_cymim"]
+texture = ExtResource("158_11vbv")
+modulate_color = Color(0.831373, 0.705882, 1, 1)
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_al0os"]
-modulate_color = Color(1, 0.145098, 1, 1)
+texture = ExtResource("158_11vbv")
 
-[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_hvxn0"]
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_vgotv"]
 
-[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_lew74"]
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_2xnc0"]
+texture = ExtResource("159_m6w5j")
+modulate_color = Color(0.831373, 0.705882, 1, 1)
 
-[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_cymim"]
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_dif85"]
+texture = ExtResource("159_m6w5j")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_vwfo1"]
+texture = ExtResource("159_m6w5j")
+modulate_color = Color(0.831373, 0.705882, 1, 1)
 
 [sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_dif85"]
 
-[node name="Main" type="Node2D" node_paths=PackedStringArray("currentBoard")]
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_bwlpu"]
+texture = ExtResource("3_658pa")
+modulate_color = Color(0.83258, 0.70554, 1, 1)
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_vgotv"]
+texture = ExtResource("3_658pa")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_apjag"]
+texture = ExtResource("3_658pa")
+modulate_color = Color(0.83258, 0.70554, 1, 1)
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_hvxn0"]
+
+[node name="Main" type="Node2D" node_paths=PackedStringArray("currentBoard", "arrows", "dpad", "zbutton", "facebutton", "arrows_zbutton", "dpad_facebutton")]
 script = SubResource("GDScript_7u77a")
 currentBoard = NodePath("I1")
-dialogue_key = "Letter"
+dialogue_key = "Intro"
+arrows = NodePath("Arrows")
+dpad = NodePath("DPAD")
+zbutton = NodePath("Z")
+facebutton = NodePath("ButtonRIght")
+arrows_zbutton = NodePath("ArroZ")
+dpad_facebutton = NodePath("DpadButton")
 
 [node name="Starfield" type="Node2D" parent="."]
 
@@ -1729,12 +1463,11 @@ scale_amount_min = 5.0
 scale_amount_max = 5.0
 scale_amount_curve = SubResource("Curve_6ecqq")
 
-[node name="CharacterStilts" type="AnimatedSprite2D" parent="."]
+[node name="CharacterStilts" type="Sprite2D" parent="."]
 modulate = Color(1, 1, 1, 0)
 position = Vector2(-512, 160)
 scale = Vector2(0.42, 0.42)
-sprite_frames = SubResource("SpriteFrames_hvxn0")
-autoplay = "default"
+texture = ExtResource("161_ffxd5")
 
 [node name="I1" type="Sprite2D" parent="."]
 modulate = Color(1, 1, 1, 0)
@@ -1787,12 +1520,11 @@ modulate = Color(1, 1, 1, 0)
 texture = ExtResource("288_vu6bj")
 script = ExtResource("281_u35ne")
 
-[node name="I11" type="AnimatedSprite2D" parent="."]
+[node name="I11" type="Sprite2D" parent="."]
 modulate = Color(1, 1, 1, 0)
 position = Vector2(-512, 160)
 scale = Vector2(0.42, 0.42)
-sprite_frames = SubResource("SpriteFrames_hvxn0")
-autoplay = "default"
+texture = ExtResource("161_ffxd5")
 
 [node name="I12" type="Sprite2D" parent="."]
 modulate = Color(1, 1, 1, 0)
@@ -1862,17 +1594,40 @@ script = ExtResource("3_kry3j")
 
 [node name="Camera2D" type="Camera2D" parent="."]
 
-[node name="Z" type="Sprite2D" parent="."]
-modulate = Color(1, 1, 1, 0)
-texture = ExtResource("302_va0ws")
-
-[node name="Arrows" type="Sprite2D" parent="."]
-modulate = Color(1, 1, 1, 0)
+[node name="Arrows" type="Sprite2D" parent="." groups=["controls"]]
+visible = false
+position = Vector2(776, -600)
+scale = Vector2(0.5, 0.5)
 texture = ExtResource("303_2o5il")
 
-[node name="ArroZ" type="Sprite2D" parent="."]
-modulate = Color(1, 1, 1, 0)
+[node name="DPAD" type="Sprite2D" parent="." groups=["controls"]]
+visible = false
+position = Vector2(848, -584)
+scale = Vector2(0.725, 0.725)
+texture = ExtResource("299_dif85")
+
+[node name="Z" type="Sprite2D" parent="." groups=["controls"]]
+visible = false
+position = Vector2(768, -784)
+texture = ExtResource("302_va0ws")
+
+[node name="ButtonRIght" type="Sprite2D" parent="." groups=["controls"]]
+visible = false
+position = Vector2(608, -568)
+scale = Vector2(0.915, 0.915)
+texture = ExtResource("300_sx0qi")
+
+[node name="ArroZ" type="Sprite2D" parent="." groups=["controls"]]
+visible = false
+position = Vector2(776, -632)
+scale = Vector2(0.5, 0.5)
 texture = ExtResource("304_cbjqf")
+
+[node name="DpadButton" type="Sprite2D" parent="." groups=["controls"]]
+visible = false
+position = Vector2(776, -536)
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("301_sx0qi")
 
 [node name="Logo" type="Sprite2D" parent="."]
 modulate = Color(1, 1, 1, 0)
@@ -1882,101 +1637,73 @@ texture = ExtResource("305_2o5il")
 modulate = Color(1, 1, 1, 0)
 texture = ExtResource("306_cbjqf")
 
-[node name="Thanks" type="RichTextLabel" parent="."]
-visible = false
-modulate = Color(1, 1, 1, 0)
-offset_left = -536.0
-offset_top = -544.0
-offset_right = 634.0
-offset_bottom = -61.0
-size_flags_horizontal = 3
-size_flags_vertical = 3
-theme_override_fonts/normal_font = SubResource("FontVariation_al0os")
-theme_override_font_sizes/normal_font_size = 91
-text = "THANK YOU FOR PLAYING"
-fit_content = true
-autowrap_mode = 0
-horizontal_alignment = 1
-vertical_alignment = 1
-
-[node name="Thanks2" type="RichTextLabel" parent="."]
-visible = false
-modulate = Color(1, 1, 1, 0)
-offset_left = -792.0
-offset_top = 56.0
-offset_right = 831.0
-offset_bottom = 539.0
-size_flags_horizontal = 3
-size_flags_vertical = 3
-theme_override_fonts/normal_font = SubResource("FontVariation_al0os")
-theme_override_font_sizes/normal_font_size = 51
-text = "FOLLOW VINE MOSS GAMES FOR UPDATES ON RMBA AND MORE "
-fit_content = true
-autowrap_mode = 0
-horizontal_alignment = 1
-vertical_alignment = 1
-
 [node name="Circles" type="AnimatedSprite2D" parent="."]
 modulate = Color(1, 1, 1, 0)
 sprite_frames = SubResource("SpriteFrames_5fyhb")
 autoplay = "default"
 
-[node name="CarIcon" type="Area2D" parent="Circles"]
-position = Vector2(488, -360)
-scale = Vector2(0.82, 0.82)
-script = ExtResource("152_ycugy")
-
-[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="Circles/CarIcon"]
-scale = Vector2(1.3, 1.3)
-sprite_frames = SubResource("SpriteFrames_qhhnr")
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Circles/CarIcon"]
-position = Vector2(0, -8)
-rotation = -2.04553
-shape = SubResource("CapsuleShape2D_11vbv")
-disabled = true
-
-[node name="CardsIcon" type="Area2D" parent="Circles"]
-position = Vector2(-320, -24)
-scale = Vector2(1.29, 1.29)
-script = ExtResource("152_ycugy")
-
-[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="Circles/CardsIcon"]
-sprite_frames = SubResource("SpriteFrames_32yv2")
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Circles/CardsIcon"]
-rotation = 0.224021
-shape = SubResource("CapsuleShape2D_vgotv")
-disabled = true
-
-[node name="WiiIcon" type="Area2D" parent="Circles"]
-script = ExtResource("152_ycugy")
-
-[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="Circles/WiiIcon"]
-position = Vector2(264, 80)
-rotation = -0.0872665
-scale = Vector2(1.5, 1.5)
-sprite_frames = SubResource("SpriteFrames_85qtq")
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Circles/WiiIcon"]
-position = Vector2(264, 96)
-rotation = -0.849379
-shape = SubResource("CapsuleShape2D_hprjy")
-disabled = true
-
-[node name="PizzaIcon" type="Area2D" parent="Circles"]
-position = Vector2(-688, -312)
-script = ExtResource("152_ycugy")
-
-[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="Circles/PizzaIcon"]
+[node name="PizzaIcon" type="Button" parent="Circles"]
+offset_left = -784.0
+offset_top = -408.0
+offset_right = -604.0
+offset_bottom = -228.0
 scale = Vector2(1.06, 1.06)
-sprite_frames = SubResource("SpriteFrames_8d8ul")
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Circles/PizzaIcon"]
-rotation = 1.5583
-scale = Vector2(0.920508, 1)
-shape = SubResource("CapsuleShape2D_m6w5j")
+focus_neighbor_left = NodePath("../CarIcon")
+focus_neighbor_right = NodePath("../CardsIcon")
+theme_override_styles/focus = SubResource("StyleBoxTexture_6umt7")
+theme_override_styles/disabled = SubResource("StyleBoxTexture_sx0qi")
+theme_override_styles/hover = SubResource("StyleBoxTexture_6umt7")
+theme_override_styles/pressed = SubResource("StyleBoxEmpty_bwlpu")
+theme_override_styles/normal = SubResource("StyleBoxTexture_sx0qi")
 disabled = true
+script = ExtResource("152_ycugy")
+
+[node name="CardsIcon" type="Button" parent="Circles"]
+offset_left = -432.0
+offset_top = -144.0
+offset_right = -252.0
+offset_bottom = 36.0
+scale = Vector2(1.29, 1.29)
+focus_neighbor_left = NodePath("../PizzaIcon")
+focus_neighbor_right = NodePath("../WiiIcon")
+theme_override_styles/focus = SubResource("StyleBoxTexture_cymim")
+theme_override_styles/disabled = SubResource("StyleBoxTexture_al0os")
+theme_override_styles/hover = SubResource("StyleBoxTexture_cymim")
+theme_override_styles/pressed = SubResource("StyleBoxEmpty_vgotv")
+theme_override_styles/normal = SubResource("StyleBoxTexture_al0os")
+disabled = true
+script = ExtResource("152_ycugy")
+
+[node name="WiiIcon" type="Button" parent="Circles"]
+offset_left = 128.0
+offset_top = -56.0
+offset_right = 308.0
+offset_bottom = 124.0
+scale = Vector2(1.5, 1.5)
+focus_neighbor_left = NodePath("../CardsIcon")
+focus_neighbor_right = NodePath("../CarIcon")
+theme_override_styles/focus = SubResource("StyleBoxTexture_2xnc0")
+theme_override_styles/disabled = SubResource("StyleBoxTexture_dif85")
+theme_override_styles/hover = SubResource("StyleBoxTexture_vwfo1")
+theme_override_styles/pressed = SubResource("StyleBoxEmpty_dif85")
+theme_override_styles/normal = SubResource("StyleBoxTexture_dif85")
+disabled = true
+script = ExtResource("152_ycugy")
+
+[node name="CarIcon" type="Button" parent="Circles"]
+offset_left = 376.0
+offset_top = -464.0
+offset_right = 586.0
+offset_bottom = -254.0
+focus_neighbor_left = NodePath("../WiiIcon")
+focus_neighbor_right = NodePath("../PizzaIcon")
+theme_override_styles/focus = SubResource("StyleBoxTexture_bwlpu")
+theme_override_styles/disabled = SubResource("StyleBoxTexture_vgotv")
+theme_override_styles/hover = SubResource("StyleBoxTexture_apjag")
+theme_override_styles/pressed = SubResource("StyleBoxTexture_hvxn0")
+theme_override_styles/normal = SubResource("StyleBoxTexture_vgotv")
+disabled = true
+script = ExtResource("152_ycugy")
 
 [node name="LetterMoment" type="Node2D" parent="."]
 modulate = Color(1, 1, 1, 0)
@@ -1996,73 +1723,32 @@ texture = ExtResource("305_2o5il")
 position = Vector2(3352.38, -4.54131e-06)
 texture = ExtResource("308_vgotv")
 
-[node name="CarMoment2" type="Node2D" parent="."]
-modulate = Color(1, 1, 1, 0)
-position = Vector2(0, 16)
-script = ExtResource("1_s8cid")
-
-[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="CarMoment2"]
-sprite_frames = SubResource("SpriteFrames_pmnrr")
-animation = &"down_left"
-
-[node name="SmokeTrail" type="CPUParticles2D" parent="CarMoment2"]
+[node name="Button" type="Label" parent="."]
 visible = false
-position = Vector2(56, -48)
-scale = Vector2(15.8209, -0.122803)
-amount = 100
-lifetime = 0.41
-local_coords = true
-emission_shape = 4
-emission_points = PackedVector2Array()
-emission_colors = PackedColorArray()
-
-[node name="Button" type="Button" parent="."]
-modulate = Color(1, 1, 1, 0)
-offset_left = -152.0
+offset_left = -528.0
 offset_top = 168.0
-offset_right = 165.0
+offset_right = 523.0
 offset_bottom = 327.0
 theme_override_fonts/font = ExtResource("307_vgotv")
-theme_override_font_sizes/font_size = 101
-theme_override_styles/focus = SubResource("StyleBoxEmpty_2lvnk")
-theme_override_styles/disabled_mirrored = SubResource("StyleBoxEmpty_vgotv")
-theme_override_styles/disabled = SubResource("StyleBoxEmpty_al0os")
-theme_override_styles/hover_pressed_mirrored = SubResource("StyleBoxEmpty_sx0qi")
-theme_override_styles/hover_pressed = SubResource("StyleBoxEmpty_bwlpu")
-theme_override_styles/hover_mirrored = SubResource("StyleBoxEmpty_apjag")
-theme_override_styles/hover = SubResource("StyleBoxTexture_al0os")
-theme_override_styles/pressed_mirrored = SubResource("StyleBoxEmpty_hvxn0")
-theme_override_styles/pressed = SubResource("StyleBoxEmpty_lew74")
-theme_override_styles/normal_mirrored = SubResource("StyleBoxEmpty_cymim")
-theme_override_styles/normal = SubResource("StyleBoxEmpty_dif85")
-disabled = true
-text = "START"
+theme_override_font_sizes/font_size = 61
+text = "PRESS ANY BUTTON"
+horizontal_alignment = 1
 
-[node name="Button2" type="Button" parent="."]
+[node name="Black" type="ColorRect" parent="."]
 modulate = Color(1, 1, 1, 0)
-offset_left = -152.0
-offset_top = 88.0
-offset_right = 165.0
-offset_bottom = 247.0
-theme_override_fonts/font = ExtResource("307_vgotv")
-theme_override_font_sizes/font_size = 101
-theme_override_styles/focus = SubResource("StyleBoxEmpty_2lvnk")
-theme_override_styles/disabled_mirrored = SubResource("StyleBoxEmpty_vgotv")
-theme_override_styles/disabled = SubResource("StyleBoxEmpty_al0os")
-theme_override_styles/hover_pressed_mirrored = SubResource("StyleBoxEmpty_sx0qi")
-theme_override_styles/hover_pressed = SubResource("StyleBoxEmpty_bwlpu")
-theme_override_styles/hover_mirrored = SubResource("StyleBoxEmpty_apjag")
-theme_override_styles/hover = SubResource("StyleBoxTexture_al0os")
-theme_override_styles/pressed_mirrored = SubResource("StyleBoxEmpty_hvxn0")
-theme_override_styles/pressed = SubResource("StyleBoxEmpty_lew74")
-theme_override_styles/normal_mirrored = SubResource("StyleBoxEmpty_cymim")
-theme_override_styles/normal = SubResource("StyleBoxEmpty_dif85")
-disabled = true
-text = "EXIT"
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -1272.0
+offset_top = -1200.0
+offset_right = 1360.0
+offset_bottom = 1104.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+color = Color(0, 0, 0, 1)
 
-[connection signal="input_event" from="Circles/CarIcon" to="." method="_on_car_icon_input_event"]
-[connection signal="input_event" from="Circles/CardsIcon" to="." method="_on_cards_icon_input_event"]
-[connection signal="input_event" from="Circles/WiiIcon" to="." method="_on_wii_icon_input_event"]
-[connection signal="input_event" from="Circles/PizzaIcon" to="." method="_on_pizza_icon_input_event"]
-[connection signal="pressed" from="Button" to="." method="_on_button_pressed"]
-[connection signal="pressed" from="Button2" to="." method="_on_button_2_pressed"]
+[connection signal="pressed" from="Circles/PizzaIcon" to="." method="_on_pizza_icon_pressed"]
+[connection signal="pressed" from="Circles/CardsIcon" to="." method="_on_cards_icon_pressed"]
+[connection signal="pressed" from="Circles/WiiIcon" to="." method="_on_wii_icon_pressed"]
+[connection signal="pressed" from="Circles/CarIcon" to="." method="_on_car_icon_pressed"]

@@ -1,0 +1,150 @@
+[gd_scene load_steps=18 format=3 uid="uid://bg2i0nasm5k1j"]
+
+[ext_resource type="Shader" uid="uid://d3mnuu3du3vf2" path="res://Scenes/main.gdshader" id="1_5j2cu"]
+[ext_resource type="Script" uid="uid://yc1wgjjqyyj" path="res://Scripts/end.gd" id="1_xmt8n"]
+[ext_resource type="Texture2D" uid="uid://dlyht8epn168c" path="res://Art/rmba_title.png" id="3_02kpm"]
+[ext_resource type="Texture2D" uid="uid://dw5kvh8fdisrx" path="res://Resources/Primary_White_Cropped.png" id="4_ql4ve"]
+[ext_resource type="Texture2D" uid="uid://go23i16sdwfp" path="res://Resources/v2_library_logo.png" id="5_q5l5q"]
+[ext_resource type="Texture2D" uid="uid://cu6aw2on0datr" path="res://Art/character/frame_01.png" id="6_d0yn4"]
+[ext_resource type="FontFile" uid="uid://cc6diw6s3cls6" path="res://Fonts/SpaceMono-Bold.ttf" id="7_kx0vo"]
+[ext_resource type="Texture2D" uid="uid://dblnis4hqgmh1" path="res://Art/Images/Images/I16.png" id="8_kx0vo"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_xmt8n"]
+shader = ExtResource("1_5j2cu")
+shader_parameter/star_density = 892.89
+shader_parameter/twinkle_speed = 0.5
+shader_parameter/star_brightness = 1.03
+shader_parameter/drift_speed = Vector2(0, 0.01)
+
+[sub_resource type="CanvasTexture" id="CanvasTexture_02kpm"]
+
+[sub_resource type="CanvasTexture" id="CanvasTexture_ql4ve"]
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_kx0vo"]
+texture = ExtResource("6_d0yn4")
+region_rect = Rect2(140.854, 1177.42, 421.039, 742.582)
+modulate_color = Color(1, 0.701961, 1, 1)
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_iv03m"]
+texture = ExtResource("6_d0yn4")
+region_rect = Rect2(140.854, 1177.42, 421.039, 742.582)
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_7vytj"]
+texture = ExtResource("6_d0yn4")
+region_rect = Rect2(140.854, 1177.42, 421.039, 742.582)
+modulate_color = Color(1, 0.701961, 1, 1)
+
+[sub_resource type="FontVariation" id="FontVariation_076sf"]
+base_font = ExtResource("7_kx0vo")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_076sf"]
+texture = ExtResource("8_kx0vo")
+region_rect = Rect2(924.568, 684.507, 195.553, 395.493)
+modulate_color = Color(0.533333, 1, 1, 1)
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_pa61i"]
+texture = ExtResource("8_kx0vo")
+region_rect = Rect2(924.568, 684.507, 195.553, 395.493)
+
+[node name="End" type="Node2D"]
+script = ExtResource("1_xmt8n")
+
+[node name="Starfield" type="Node2D" parent="."]
+
+[node name="NearStars" type="Sprite2D" parent="Starfield"]
+material = SubResource("ShaderMaterial_xmt8n")
+scale = Vector2(2000, 2000)
+texture = SubResource("CanvasTexture_02kpm")
+
+[node name="Shooting Star" type="Sprite2D" parent="Starfield"]
+visible = false
+texture = SubResource("CanvasTexture_ql4ve")
+
+[node name="Title" type="Sprite2D" parent="."]
+position = Vector2(0, -288)
+texture = ExtResource("3_02kpm")
+
+[node name="Title2" type="Sprite2D" parent="Title"]
+texture = ExtResource("3_02kpm")
+
+[node name="Title3" type="Sprite2D" parent="Title"]
+texture = ExtResource("3_02kpm")
+
+[node name="Title4" type="Sprite2D" parent="Title"]
+texture = ExtResource("3_02kpm")
+
+[node name="Camera2D" type="Camera2D" parent="."]
+
+[node name="VMLogo" type="Sprite2D" parent="."]
+position = Vector2(704, 344)
+scale = Vector2(0.41, 0.41)
+texture = ExtResource("4_ql4ve")
+
+[node name="IWWH" type="Sprite2D" parent="."]
+position = Vector2(-696, 328)
+scale = Vector2(0.34, 0.34)
+texture = ExtResource("5_q5l5q")
+
+[node name="Restart" type="Button" parent="."]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -224.0
+offset_top = 240.0
+offset_right = -89.0
+offset_bottom = 480.0
+grow_horizontal = 2
+grow_vertical = 2
+scale = Vector2(1.28, 1.28)
+focus_neighbor_left = NodePath("../Exit")
+focus_neighbor_right = NodePath("../Exit")
+theme_override_styles/focus = SubResource("StyleBoxTexture_kx0vo")
+theme_override_styles/disabled = SubResource("StyleBoxTexture_iv03m")
+theme_override_styles/hover = SubResource("StyleBoxTexture_7vytj")
+theme_override_styles/normal = SubResource("StyleBoxTexture_iv03m")
+
+[node name="Label" type="Label" parent="Restart"]
+layout_mode = 0
+offset_left = -18.75
+offset_top = -75.0
+offset_right = 157.25
+offset_bottom = -14.0
+theme_override_fonts/font = SubResource("FontVariation_076sf")
+theme_override_font_sizes/font_size = 41
+text = "RESTART"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Exit" type="Button" parent="."]
+unique_name_in_owner = true
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 88.0
+offset_top = 256.0
+offset_right = 203.11
+offset_bottom = 496.0
+grow_horizontal = 2
+grow_vertical = 2
+scale = Vector2(1.28, 1.28)
+focus_neighbor_left = NodePath("../Restart")
+focus_neighbor_right = NodePath("../Restart")
+theme_override_styles/focus = SubResource("StyleBoxTexture_076sf")
+theme_override_styles/disabled = SubResource("StyleBoxTexture_pa61i")
+theme_override_styles/hover = SubResource("StyleBoxTexture_076sf")
+theme_override_styles/normal = SubResource("StyleBoxTexture_pa61i")
+
+[node name="Label" type="Label" parent="Exit"]
+layout_mode = 0
+offset_left = -18.75
+offset_top = -87.5
+offset_right = 157.25
+offset_bottom = -26.5
+theme_override_fonts/font = SubResource("FontVariation_076sf")
+theme_override_font_sizes/font_size = 41
+text = "EXIT"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[connection signal="pressed" from="Restart" to="." method="_on_restart_pressed"]
+[connection signal="pressed" from="Exit" to="." method="_on_exit_pressed"]
